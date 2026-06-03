@@ -23,4 +23,4 @@
 
 ## 📝 Engineering Decisions
 1. **rightsizing-web-server:** Initial idle metrics (<1% CPU) indicate that a burstable general-purpose `t3.micro` is more than sufficient to handle baseline tasks while utilizing CPU Credits for occasional peaks.
-2. **rightsizing-data-processor:** Severely over-provisioned during initial rollout. Downsized to `t3.micro` to align resource boundaries with actual workload demands.
+2. **rightsizing-data-processor:** Severely over-provisioned during initial rollout. Downsized to `t3.micro` to align resource boundaries with actual workload demands.- Extra Mile: Created automated shell auditing tool and automated CloudWatch FinOps thresholds.
