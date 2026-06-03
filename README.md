@@ -1,0 +1,1 @@
+# ce-lab-rightsizing-ec2-instances
